@@ -1,0 +1,428 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #dbdada;
+  position: absolute;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.shape {
+  position: absolute;
+  display: flex;
+  justify-content: left;
+  margin-left: -100px;
+  margin-top: -10px;
+  border: none;
+  border-bottom-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+  width: 480px;
+  height: 600px;
+  background-image: linear-gradient(hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+}
+.mobile-phone {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  background-color: #d8d8d8;
+  margin-left: 350px;
+  margin-top: 80px;
+  width: 235px;
+  height: 450px;
+  border-style: solid;
+  border-radius: 30px;
+  border-width: 8px;
+  border-color: #ffffff;
+  font-family: "Rubik", sans-serif;
+  letter-spacing: 0.03rem;
+  line-height: 0.7rem;
+}
+
+.simple-booking {
+  position: absolute;
+  width: 500px;
+  height: 350px;
+  margin-top: 100px;
+  margin-left: 800px;
+  color: hsl(270, 7%, 64%);
+  font-size: 11px;
+  line-height: 1.2rem;
+}
+
+.header-shape {
+  background-color: #ffffff;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 110px;
+  height: 13px;
+  border-style: none;
+  border-radius: 10px;
+  margin: -5px;
+}
+.chat-head {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+    to left,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  width: 235px;
+  height: 60px;
+  margin-top: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.chat-head-name {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 10px;
+  height: 50px;
+  width: 100px;
+  margin-right: 35px;
+}
+
+.available {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 10px;
+  height: 20px;
+  width: 100px;
+  margin-left: 25px;
+  margin-top: 35px;
+}
+
+.chevron-left {
+  position: absolute;
+  justify-content: left;
+  display: flex;
+  color: #ffffff;
+  font-size: 11px;
+  margin-top: 30px;
+  margin-right: 210px;
+}
+
+.ellipsis {
+  position: absolute;
+  justify-content: left;
+  display: flex;
+  color: #ffffff;
+  font-size: 11px;
+  margin-top: 30px;
+  margin-left: 210px;
+}
+.avatar {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 2px;
+  border-radius: 20px;
+  width: 35px;
+  height: 35px;
+  margin-top: 15px;
+  margin-left: -150px;
+}
+.chat-1 {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 90px;
+  margin-top: 70px;
+  background-color: hsl(274, 80%, 90%);
+  border-style: none;
+  border-radius: 7px 7px 7px 1px;
+  width: 120px;
+  height: 30px;
+}
+.chat-1-text {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 8px;
+  vertical-align: middle;
+  color: hsl(276, 55%, 52%);
+  width: 110px;
+  height: 20px;
+}
+.chat-2 {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 80px;
+  margin-top: 110px;
+  background-color: hsl(274, 80%, 90%);
+  border-style: none;
+  border-radius: 7px 7px 7px 1px;
+  width: 130px;
+  height: 35px;
+}
+
+.chat-2-text {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 3px;
+  margin-top: 5px;
+  font-size: 8px;
+  vertical-align: middle;
+  color: hsl(276, 55%, 52%);
+  width: 140px;
+  height: 20px;
+}
+.dogs {
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  width: 250px;
+  height: 40px;
+  margin-right: 25px;
+  margin-top: 155px;
+}
+.chat-3 {
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  margin-left: 80px;
+  margin-top: 200px;
+  background-color: #ffffff;
+  border-style: none;
+  border-radius: 7px 7px 1px 7px;
+  width: 140px;
+  height: 35px;
+}
+
+.chat-3-text {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 3px;
+  margin-top: 5px;
+  font-size: 8px;
+  vertical-align: middle;
+  color: hsl(271, 15%, 43%);
+  width: 140px;
+  height: 20px;
+}
+.chat-4 {
+  position: absolute;
+  display: flex;
+  justify-content: right;
+  margin-left: 140px;
+  margin-top: 240px;
+  background-color: #ffffff;
+  border-style: none;
+  border-radius: 7px 7px 1px 7px;
+  width: 85px;
+  height: 20px;
+}
+
+.chat-4-text {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 0px;
+  margin-top: 5px;
+  font-size: 8px;
+  vertical-align: middle;
+  color: hsl(271, 15%, 43%);
+  width: 80px;
+  height: 20px;
+}
+.chat-5 {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 80px;
+  margin-top: 270px;
+  background-color: hsl(274, 80%, 90%);
+  border-style: none;
+  border-radius: 7px 7px 7px 1px;
+  width: 135px;
+  height: 40px;
+}
+
+.chat-5-text {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  margin: 5px 0px 5px 0px;
+  font-size: 8px;
+  vertical-align: middle;
+  color: hsl(276, 55%, 52%);
+  width: 140px;
+  height: 20px;
+}
+.charge-1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  width: 160px;
+  height: 30px;
+  margin: 320px 50px 0px 0px;
+  border-style: none;
+  border-radius: 7px 7px 7px 1px;
+}
+
+.charge-1-rate {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 9px;
+  opacity: 0.6;
+  width: 100px;
+  height: 20px;
+  margin: 10px 15px 0px 0px;
+}
+
+.charge-2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(
+    to right,
+    hsl(293, 100%, 63%),
+    hsl(264, 100%, 61%)
+  );
+  width: 160px;
+  height: 30px;
+  margin: 360px 50px 0px 0px;
+  border-style: none;
+  border-radius: 7px 7px 7px 1px;
+}
+
+.charge-2-rate {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 9px;
+  opacity: 0.6;
+  width: 100px;
+  height: 20px;
+  margin: 10px 30px 0px 0px;
+}
+.type-message-field {
+  display: flex;
+  position: absolute;
+  justify-items: flex-start;
+  background-color: #ffffff;
+  border-style: none;
+  border-radius: 40px;
+  width: 215px;
+  height: 30px;
+  margin: 415px 0px 0px 0px;
+}
+input {
+  color: #7a7a7a;
+  font-size: 10px;
+  text-align: left;
+  vertical-align: middle;
+  align-items: flex-start;
+  border-style: none;
+  border-radius: 30px;
+  width: 200px;
+  height: 20px;
+  margin-top: 0px;
+  text-indent: 7px;
+}
+
+.circle {
+  background-color: hsl(271, 36%, 24%);
+  width: 20px;
+  height: 20px;
+  border-style: none;
+  border-radius: 20px;
+  margin: 5px 10px 0px 0px;
+  color: #ffffff;
+  font-size: 9px;
+}
+.h3 {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 13px;
+  width: 30px;
+  height: 30px;
+  margin: 7px 0px 0px 90px;
+}
+
+.circle-notch {
+  color: #ffffff;
+  opacity: 0.2;
+  font-size: 13px;
+  margin: 10px 10px 20px 10px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  margin: 580px 0px 0px 250px;
+  text-align: center;
+  color: #2d2d2e;
+  font-size: 10px;
+}
+
+a {
+  text-decoration-line: none;
+}
+@media only screen and (max-width: 375px) {
+  body {
+    background-color: #ebbdf7;
+    position: absolute;
+    overflow-y: auto;
+  }
+
+  .mobile-phone {
+    margin-left: 20px;
+    margin-top: 150px;
+    width: 235px;
+    height: 450px;
+  }
+
+  .simple-booking {
+    margin-top: 560px;
+    margin-left: 250px;
+    color: #000000;
+    font-size: 12px;
+  }
+  .h3 {
+    color: hsl(264, 88%, 78%);
+  }
+
+  .footer {
+    position: fixed;
+    color: #ffffff;
+    margin-top: 1000px;
+    margin-left: 50px;
+    width: auto;
+    height: 20px;
+  }
+}
